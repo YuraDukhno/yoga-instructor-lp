@@ -1,0 +1,46 @@
+import React from "react";
+
+export default function Benefits() {
+  return (
+    <div className="benefits">
+      <div className="benefits__container container">
+        <div className="benefits__row">
+          <ul className="benefits__list">
+            <li className="benefits__item">
+              <span className="benefits__icon">icon</span>
+              <span className="benefits__title">Burn More</span>
+              <span className="benefits__text">
+                Cras sagittis. Vivamus in erat urna cursus vestibulum.
+                Vestibulum rutrum, mi nec elementum vehiculaid fringilla.
+              </span>
+            </li>
+            <li className="benefits__item">
+              <span className="benefits__icon">icon</span>
+              <span className="benefits__title">Stress Relief</span>
+              <span className="benefits__text">
+                Cras sagittis. Vivamus in erat urna cursus vestibulum.
+                Vestibulum rutrum, mi nec elementum vehiculaid fringilla.
+              </span>
+            </li>
+            <li className="benefits__item">
+              <span className="benefits__icon">icon</span>
+              <span className="benefits__title">Boosts Energy</span>
+              <span className="benefits__text">
+                Cras sagittis. Vivamus in erat urna cursus vestibulum.
+                Vestibulum rutrum, mi nec elementum vehiculaid fringilla.
+              </span>
+            </li>
+            <li className="benefits__item">
+              <span className="benefits__icon">icon</span>
+              <span className="benefits__title">Full Body</span>
+              <span className="benefits__text">
+                Cras sagittis. Vivamus in erat urna cursus vestibulum.
+                Vestibulum rutrum, mi nec elementum vehiculaid fringilla.
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  );
+}
