@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Gallery() {
   return (
-    <div className="gallery">
+    <div className="gallery box">
       <div className="gallery__container container">
         <ul className="gallery__list">
           <li className="gallery__item">

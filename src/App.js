@@ -1,5 +1,6 @@
 
 import './App.css';
+// import './Styles/styles.scss'
 import About from './Layout/About';
 import Header from './Layout/Header';
 import Gallery from "./Layout/Gallery";

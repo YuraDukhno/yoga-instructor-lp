@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <div className="contact">
+    <div className="contact box">
       <div className="container contact__container">
         <span>Full Name</span>
         <span>Email</span>

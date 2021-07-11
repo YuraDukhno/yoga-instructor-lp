@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Testimonials() {
   return (
-    <div className="testimonials">
+    <div className="testimonials box">
       <div className="testimonials__container container">
         <div className="motto">
           <div className="motto__icon">"</div>

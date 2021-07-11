@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Benefits() {
   return (
-    <div className="benefits">
+    <div className="benefits box">
       <div className="benefits__container container">
         <div className="benefits__row">
           <ul className="benefits__list">

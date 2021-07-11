@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Pricing() {
   return (
-    <div className="pricing">
+    <div className="pricing box">
       <div className="container pricing__container">
         <ul className="pricing__list">
           <li className="pricing__item">
