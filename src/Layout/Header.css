@@ -7,11 +7,15 @@
   padding-bottom: 300px;
   background-image: url(http://bloxthemes.net/landing-pages/uploads/images/blox_page_builder/yogaa.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
 }
 
 .header__bottom-line {
+  height: 20px;
+}
+
+.line {
   display: inline-block;
   height: 2px;
   max-width: 60px;
@@ -22,6 +26,7 @@
 .header__content {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   color: white;
 }
 
@@ -29,14 +34,18 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 27px;
   color: rgb(247 249 128);
+  margin-top: 10px;
+  padding-bottom: 30px;
 }
 
 .header__title {
-  font-weight: 300;
+  font-weight: 400;
   font-family: Ubuntu;
   font-size: 90px;
   color: rgb(255 255 255);
   text-transform: uppercase;
+  /* margin-top: 10px;
+  padding-bottom: 10px; */
 }
 
 .header__title-yalow {
@@ -52,4 +61,39 @@
 }
 
 .icon__list {
+  display: flex;
+  flex-direction: row;
+}
+
+.fa {
+  height: 42px;
+  width: 42px;
+  margin-left: 6px;
+  margin-right: 6px;
+  font-size: 16px;
+  border-radius: 100%;
+  border: 2px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: ease-in-out 0.25s;
+}
+
+.fa:hover {
+  cursor: pointer;
+  background-color: white;
+  color: rgb(0, 145, 182);
+}
+
+.uc_icon {
+  display: flex;
+  align-items: center;
+  /* margin-left: 6px;
+    margin-right: 6px; */
+}
+
+.uc_icons_link {
+  position: relative;
+  min-height: 1px;
 }
