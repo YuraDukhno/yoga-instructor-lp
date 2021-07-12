@@ -18,8 +18,6 @@ function App() {
       {/* About */}
       <About />
       {/* Capture */}
-      <Capture text={"My Gallery"} />
-      {/* Gallery */}
       <Gallery />
       {/* Capture */}
       <Capture text={"Benefits Of Yoga"} />

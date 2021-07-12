@@ -1,0 +1,40 @@
+.capture {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 60px;
+}
+
+.capture__separator {
+  border-top: 1px solid;
+  clear: both;
+  display: inline-block;
+  position: relative;
+  border-color: white;
+  width: 100px;
+}
+
+.capture__qub {
+  background-color: white;
+  content: "";
+  height: 10px;
+  left: 50%;
+  margin: -5px auto auto -5px;
+  position: absolute;
+  transform: rotate(-45deg);
+  width: 10px;
+}
+
+.capture__title {
+  font-family: Poppins;
+  font-size: 42px;
+  color: white;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 1080px) {
+  .capture__title {
+    padding: 0 15px;
+    font-size: calc(32px + 10 * (100vw / 1920));
+  }
+}

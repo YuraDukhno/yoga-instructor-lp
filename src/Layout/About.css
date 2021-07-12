@@ -11,19 +11,11 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-}
-
-.about__bottom-line {
-}
-
-.about__capture {
+  flex-wrap: wrap;
 }
 
 .about__column {
   flex-basis: 485px;
-}
-
-.about__container {
 }
 
 .about__text {
@@ -65,4 +57,15 @@
 
 .about__widget img {
   border-radius: 30px;
+}
+
+@media screen and (max-width: 970px) {
+  .about__tittle {
+    font-size: calc(36px + 6 * (100vw / 1920));
+  }
+
+  .about__column {
+    flex-basis: 350px;
+    padding-bottom: 45px;
+  }
 }

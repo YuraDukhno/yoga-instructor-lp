@@ -1,9 +1,12 @@
 import React from "react";
+import "./Gallery.css";
+import Capture from "./Components/Capture";
 
 export default function Gallery() {
   return (
     <div className="gallery box">
       <div className="gallery__container container">
+        <Capture text={"My Gallery"} />
         <ul className="gallery__list">
           <li className="gallery__item">
             <figure>
