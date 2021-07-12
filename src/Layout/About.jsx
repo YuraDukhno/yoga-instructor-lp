@@ -1,4 +1,6 @@
 import React from "react";
+import "../Layout/About.css";
+import Capture from "./Components/Capture";
 
 export default function About() {
   return (
@@ -7,11 +9,15 @@ export default function About() {
         <div className="about__row">
           <div className="about__column">
             {/* Capture */}
-            <div className="capture">
-              <div className="capture__tittle">
+            <div className="about__capture">
+              <div className="about__tittle">
                 <h1>About Me</h1>
               </div>
-              <div className="capture__bottom-line"></div>
+              <div className="about__bottom-line">
+                <div className="separator">
+                  <div className="separator__qub"></div>
+                </div>
+              </div>
             </div>
             <div className="about__text">
               <span>

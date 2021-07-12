@@ -1,0 +1,68 @@
+.about {
+  background-image: url(http://bloxthemes.net/landing-pages/uploads/images/blox_page_builder/rekaaaa.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.about__row {
+  padding: 200px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.about__bottom-line {
+}
+
+.about__capture {
+}
+
+.about__column {
+  flex-basis: 485px;
+}
+
+.about__container {
+}
+
+.about__text {
+  font-size: 18px;
+  line-height: 1.7em;
+  color: rgb(163 156 171);
+  font-family: Ubuntu;
+  padding-top: 10px;
+  margin-top: 30px;
+}
+
+.about__tittle {
+  font-family: Poppins;
+  font-size: 42px;
+  color: rgb(184 25 178);
+  padding-top: 80px;
+  padding-bottom: 10px;
+}
+
+.separator {
+  border-top: 1px solid;
+  clear: both;
+  display: inline-block;
+  position: relative;
+  border-color: rgb(93 140 229);
+  width: 100px;
+}
+
+.separator__qub {
+  background-color: rgb(93 140 229);
+  content: "";
+  height: 10px;
+  left: 50%;
+  margin: -5px auto auto -5px;
+  position: absolute;
+  transform: rotate(-45deg);
+  width: 10px;
+}
+
+.about__widget img {
+  border-radius: 30px;
+}
