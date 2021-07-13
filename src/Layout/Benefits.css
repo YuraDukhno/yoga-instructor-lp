@@ -1,3 +1,46 @@
 .benefits {
   padding: 200px 0;
 }
+
+.benefits__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.benefits__item {
+  flex-basis: 250px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(45deg, rgb(89 223 254), rgb(201 88 254));
+  border-radius: 30px;
+  color: white;
+}
+
+.benefits__icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 50%;
+  min-height: 50px;
+}
+
+.benefits__text {
+  font-size: 15px;
+  font-family: Ubuntu;
+}
+
+.benefits__title {
+  margin-bottom: 14px;
+  font-size: 24px;
+  font-family: Ubuntu;
+}
+
+.fa {
+  color: #8aa5fe;
+}

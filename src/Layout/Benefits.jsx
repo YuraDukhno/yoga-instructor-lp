@@ -10,7 +10,9 @@ export default function Benefits() {
         <div className="benefits__row">
           <ul className="benefits__list">
             <li className="benefits__item">
-              <span className="benefits__icon">icon</span>
+              <span className="benefits__icon">
+                <i class="fa fa-fire"></i>
+              </span>
               <span className="benefits__title">Burn More</span>
               <span className="benefits__text">
                 Cras sagittis. Vivamus in erat urna cursus vestibulum.
@@ -18,7 +20,9 @@ export default function Benefits() {
               </span>
             </li>
             <li className="benefits__item">
-              <span className="benefits__icon">icon</span>
+              <span className="benefits__icon">
+                <i class="fa fa-heartbeat"></i>
+              </span>
               <span className="benefits__title">Stress Relief</span>
               <span className="benefits__text">
                 Cras sagittis. Vivamus in erat urna cursus vestibulum.
@@ -26,7 +30,9 @@ export default function Benefits() {
               </span>
             </li>
             <li className="benefits__item">
-              <span className="benefits__icon">icon</span>
+              <span className="benefits__icon">
+                <i class="fa fa-bolt"></i>
+              </span>
               <span className="benefits__title">Boosts Energy</span>
               <span className="benefits__text">
                 Cras sagittis. Vivamus in erat urna cursus vestibulum.
@@ -34,7 +40,9 @@ export default function Benefits() {
               </span>
             </li>
             <li className="benefits__item">
-              <span className="benefits__icon">icon</span>
+              <span className="benefits__icon">
+                <i class="fa fa-male"></i>
+              </span>
               <span className="benefits__title">Full Body</span>
               <span className="benefits__text">
                 Cras sagittis. Vivamus in erat urna cursus vestibulum.
