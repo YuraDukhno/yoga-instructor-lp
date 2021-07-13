@@ -20,7 +20,7 @@ function App() {
       {/* Capture */}
       <Gallery />
       {/* Capture */}
-      <Capture text={"Benefits Of Yoga"} />
+      
       {/* Benefits Yoga */}
       <Benefits />
       {/* Testimonials */}
